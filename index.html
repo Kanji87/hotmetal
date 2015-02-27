@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HOT METAL</title>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="hot__head">
+      <h1 class="hot__title">Холодно — теплее — горячо</h1>
+    </div>
+    <div class="hot__container clearfix">
+      <div class="hot__container--item fl-l hot__container--item-history">
+        <p class="hot__container--history-text">Вскипятить воду можно в обычной кастрюле. Чтобы расплавить металл, понадобятся материалы, способные выдержать соответствующие огромные температуры — огнеупоры. Меняйте температуру — и узнайте, когда и какие огнеупоры используются.</p>
+        <div class="hot__container--history-image clearfix">
+          <div class="fl-l history-image__liquid">
+            <img src="img/tiny_liquid.png" alt="">
+            <p class="history-image--caption">Металлы,<br> сплавы</p>
+          </div>
+          <div class="fl-l history-image__cup">
+            <img src="img/tiny_cup_n1.png" alt="">
+            <p class="history-image--caption">Огнеупоры</p>
+          </div>
+        </div>
+      </div>
+      <div class="hot__container--item fl-l hot__container--item-cup">
+        <div class="hot__container--liquid"></div>
+        <div class="hot__container--wave"></div>
+        <div class="hot__container--element hot__container--element-hg">
+          Ртуть <span class="hot__container--element-temp">-39 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-pb">
+          Свинец <span class="hot__container--element-temp">327 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-al">
+          Алюминий <span class="hot__container--element-temp">660 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-cu">
+          Медь <span class="hot__container--element-temp">1084 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-steel">
+          Сталь <span class="hot__container--element-temp">1450-1520 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-crude-iron">
+          Чугун <span class="hot__container--element-temp">1100-1300 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-pt">
+          Платина <span class="hot__container--element-temp">1768 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-nb">
+          Ниобий <span class="hot__container--element-temp">2477 °C</span>
+        </div>
+        <div class="hot__container--element hot__container--element-w">
+          Вольфрам <span class="hot__container--element-temp">3422 °C</span>
+        </div>
+        <!-- <img class="hot__container--cup-img" src="img/big_cup_n2.png" alt=""> -->
+        <p class="hot__container--cup-caption caption660">
+          Алюмосиликатные <span>(до 660 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1084">
+          Периклазохромитовые <span>(до 1084 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1100-1300">
+          Алюмосиликатные, периклазовые, периклазохромитовые <span>(1100-1300 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1450-1520">
+          Периклазохромитовые, периклазоуглеродистые, корундоуглеродистые <span>(1450-1520 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1650-1700">
+          Полукислые <span>(1610-1710 °C)</span><br>
+          Шамотные <span>(1610-1750 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1750">
+          Шамотные <span>(1610-1750 °C)</span><br>
+          Динасовые <span>(1710-1730 °C)</span><br>
+          Форстеритовые <span>(ок. 1750 °C)</span><br>
+          Высокоглиноземистые <span>(1750-1850 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1800-1850">
+          Высокоглиноземистые <span>(1750-1850 °C)</span><br>
+          Доломитовые <span>(1800-1950 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption1900-1950">
+          Доломитовые <span>(1800-1950 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption2000-2500">
+          Периклазовые <span>(>2000 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption2500-2600">
+          Периклазовые <span>(>2000 °C)</span><br>
+          Графитовые <span>(2500-2600 °C)</span>
+        </p>
+        <p class="hot__container--cup-caption caption-last">
+          Периклазовые <span>(>2000 °C)</span><br>
+          Сверхогнеупорные <span>(>3000 °C)</span>
+        </p>
+      </div>
+      <div class="hot__container--item fl-l hot__container--item-term">
+        <div class="slider">
+          <div class="slider-wall"></div>
+          <div class="slider-vertical"></div>
+        </div>
+      </div>
+      <div class="hot__container--sign">
+        Потяните ползунок вверх, чтобы изменить температуру
+      </div>
+    </div>
+
+    <!--<div class="bucket">
+       <div class="amount">
+        <label for="amount__input">Volume:</label>
+        <input type="text" id="amount__input" readonly>
+      </div>
+    </div> -->
+  </div>
+
+  <script>
+    $(function(){
+      var tooltip = $('<div id="tooltip" />'),
+          bucket = $('.bucket'),
+          prevVal = 150,
+          wave = $('.hot__container--wave'),
+          caption = $('.hot__container--cup-caption'),
+          liquidContainer = $('.hot__container--liquid');
+
+      caption.hide();
+      $('.caption660').show();
+
+      $(".slider-vertical").slider({
+        orientation: "vertical",
+        range: "min",
+        min: -50,
+        max: 3450,
+        value: -50,
+        step: 50,
+        slide: function(event, ui) {
+          var curVal = ui.value;
+          // console.log(curVal);
+          if (curVal == -50) {
+            liquidContainer.animate({height: 40}, 50);
+            wave.animate({bottom: 165}, 50);
+          }
+          if (curVal == 350) {
+            liquidContainer.animate({height: 80}, 50);
+            wave.animate({bottom: 205}, 50);
+          }
+          if (curVal == 700) {
+            liquidContainer.animate({height: 120}, 50);
+            wave.animate({bottom: 245}, 50);
+          }
+          if (curVal == 1100) {
+            liquidContainer.animate({height: 160}, 50);
+            wave.animate({bottom: 285}, 50);
+          }
+          if (curVal == 1300) {
+            liquidContainer.animate({height: 160}, 50);
+            wave.animate({bottom: 285}, 50);
+          }
+          if (curVal >= 1450 && curVal <= 1550) {
+            liquidContainer.animate({height: 200}, 50);
+            wave.animate({bottom: 325}, 50);
+          }
+          if (curVal == 1800) {
+            liquidContainer.animate({height: 240}, 50);
+            wave.animate({bottom: 365}, 50);
+          }
+          if (curVal == 2500) {
+            liquidContainer.animate({height: 280}, 50);
+            wave.animate({bottom: 405}, 50);
+          }
+          if (curVal == 3450) {
+            liquidContainer.animate({height: 340}, 50);
+            wave.animate({bottom: 465}, 50);
+          }
+
+          if (curVal > 1950 && curVal < 3000) {
+            caption.hide();
+          }
+
+          if (curVal < 660) {
+            caption.hide();
+            $('.caption660').show();
+          }
+          if (curVal >= 660 && curVal < 1100) {
+            caption.hide();
+            $('.caption1084').show();
+          }
+          if (curVal >= 1100 && curVal < 1300) {
+            caption.hide();
+            $('.caption1100-1300').show();
+          }
+          if (curVal >= 1450 && curVal < 1550) {
+            caption.hide();
+            $('.caption1450-1520').show();
+          }
+          if (curVal >= 1650 && curVal < 1750) {
+            caption.hide();
+            $('.caption1650-1700').show();
+          }
+          if (curVal == 1750) {
+            caption.hide();
+            $('.caption1750').show();
+          }
+          if (curVal >= 1800 && curVal <= 1850) {
+            caption.hide();
+            $('.caption1800-1850').show();
+          }
+          if (curVal >= 1900 && curVal <= 1950) {
+            caption.hide();
+            $('.caption1900-1950').show();
+          }
+          if (curVal >= 2000 && curVal <= 2500) {
+            caption.hide();
+            $('.caption2000-2500').show();
+          }
+          if (curVal > 2500 && curVal <= 2600) {
+            caption.hide();
+            $('.caption2500-2600').show();
+          }
+          if (curVal > 2600 && curVal < 3000) {
+            caption.hide();
+            $('.caption2000-2500').show();
+          }
+          if (curVal >= 3000) {
+            caption.hide();
+            $('.caption-last').show();
+          }
+
+          tooltip.text(ui.value);
+        }
+        // change: function(event, ui) {
+        //   var curVal = ui.value;
+        //   if (curVal >= -50 && curVal < 350) {
+        //     liquidContainer.animate({height: 40}, 50);
+        //     wave.animate({bottom: 165}, 50);
+        //   }
+        //   if (curVal >= 350 && curVal < 700) {
+        //     liquidContainer.animate({height: 80}, 50);
+        //     wave.animate({bottom: 205}, 50);
+        //   }
+        //   if (curVal >= 700 && curVal < 1100) {
+        //     liquidContainer.animate({height: 120}, 50);
+        //     wave.animate({bottom: 245}, 50);
+        //   }
+        //   if (curVal >= 1100 && curVal < 1500) {
+        //     liquidContainer.animate({height: 160}, 50);
+        //     wave.animate({bottom: 285}, 50);
+        //   }
+        //   if (curVal >= 1450 && curVal < 1800) {
+        //     liquidContainer.animate({height: 200}, 50);
+        //     wave.animate({bottom: 325}, 50);
+        //   }
+        //   if (curVal >= 1610 && curVal < 1800) {
+        //     liquidContainer.animate({height: 200}, 50);
+        //     wave.animate({bottom: 325}, 50);
+        //   }
+        //   if (curVal >= 1800 && curVal < 2500) {
+        //     liquidContainer.animate({height: 240}, 50);
+        //     wave.animate({bottom: 365}, 50);
+        //   }
+        //   if (curVal >= 2500 && curVal < 3450) {
+        //     liquidContainer.animate({height: 280}, 50);
+        //     wave.animate({bottom: 405}, 50);
+        //   }
+        //   if (curVal >= 3450) {
+        //     liquidContainer.animate({height: 340}, 50);
+        //     wave.animate({bottom: 465}, 50);
+        //   }
+
+        //   if (curVal < 1650 || curVal > 1950 && curVal < 3000) {
+        //     caption.hide();
+        //   }
+
+        //   if (curVal >= 1650 && curVal <= 1750) {
+        //     caption.hide();
+        //     $('.caption1650-1700').show();
+        //   }
+        //   if (curVal == 1750) {
+        //     caption.hide();
+        //     $('.caption1750').show();
+        //   }
+        //   if (curVal >= 1800 && curVal <= 1850) {
+        //     caption.hide();
+        //     $('.caption1800-1850').show();
+        //   }
+        //   if (curVal >= 1900 && curVal <= 1950) {
+        //     caption.hide();
+        //     $('.caption1900-1950').show();
+        //   }
+        //   if (curVal >= 2000 && curVal <= 2500) {
+        //     caption.hide();
+        //     $('.caption2000-2500').show();
+        //   }
+        //   if (curVal >= 2000 && curVal <= 2500) {
+        //     caption.hide();
+        //     $('.caption2000-2500').show();
+        //   }
+        //   if (curVal >= 2500 && curVal <= 2600) {
+        //     caption.hide();
+        //     $('.caption2500-2600').show();
+        //   }
+        //   if (curVal > 2600) {
+        //     caption.hide();
+        //     $('.caption-last').show();
+        //   }
+        //   tooltip.text(ui.value);
+        // }
+      }).find(".ui-slider-handle").append(tooltip);
+
+      // amount.val( $(".slider-vertical").slider("value") );
+      tooltip.text( $(".slider-vertical").slider("value") );
+    });
+  </script>
+</body>
+</html>
